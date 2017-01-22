@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Star English</string>
+    <string name="dropStat">Сбросить</string>
+
+    <string name="hello_world">HelloWorlds</string>
+    <string name="action_settings">Статистика</string> <!-- Click on menu button will show option of going to statistics activity !-->
+
+    <string name="title_activity_statistics">Статистика</string>
+    <string name="title_activity_add_info">AddInfoActivity</string>
+    <string name="title_activity_lesson_shower">Уроки</string>
+    <string name="title_activity_lesson_picker">Урок </string>
+    <string name="title_activity_test">Тест </string>
+    <string name="title_activity_about">О программе</string>
+
+    <string name="btnameLessons">Уроки</string>
+    <string name="btnameVerbs">Неправильные глаголы</string>
+    <string name="btnameTenses">Таблица времен</string>
+    <string name="btnameAlphabet">Алфавит</string>
+    <string name="btnameStatistic">Статистика</string>
+    <string name="btnameAbout">О программе</string>
+
+    <string name="btnameles1">Урок 1. Глагол "To Be". Построение простейших предложений.</string>
+    <string name="btnameles2">Урок 2. Неопределенная форма глагола. Вопросительные предложения.</string>
+    <string name="btnameles3">Урок 3. Неопределенный артикль a / an. Предлоги to / for / with / after / into / under</string>
+    <string name="btnameles4">Урок 4. Множественное число в английском языке. Количественные числительные.</string>
+    <string name="btnameles5">Урок 5. Оборот There is / There are </string>
+    <string name="btnameles6">Урок 6. Coming soon. </string>
+    <string name="btnameles7">Урок 7. Coming soon. </string>
+    <string name="btnameles8">Урок 8. Coming soon. </string>
+
+    <string name="btnamecontent">Материал урока</string>
+    <string name="btnametesting">Начать тестирование</string>
+    <string name="btnamenext">NEXT</string>
+    <string name="btnamehint">Подсказка</string>
+    <string name="btnamerestart">Пройти заново</string>
+    <string name="btnamefinish">Завершить</string>
+    <string name="radiobtnameY">YES</string>
+    <string name="radiobtnameN">NO</string>
+
+    <string name="YNQTitleOfQuestion">Правильно ли переведено слово?</string>
+    <string name="CORQTitleOfQuestion">Вставьте недостающие буквы или части предложения\n Необходимо ввести полное слово</string>
+    <string name="MATCHQTitleOfQuestion">Сопоставьте слова с правильным переводом</string>
+    <string name="PICQTitleOfQuestion">Сопоставьте картинки с определениями</string>
+    <string name="textnamelessonstat">Подробная статистика по каждому заданию:</string>
+    <string name="CORhint">Введите слово целиком</string>
+    <string name="equals">=</string>
+
+    <string-array name="match_answers">
+        <item>A  </item>
+        <item>B  </item>
+        <item>C  </item>
+    </string-array>
+
+    <string name="about">Программа Star English предназначена для изучения английского языка и закрепления полученных знаний.\n\nКурс обучения -
+        модульный, в каждом модуле (уроке) представлены обучающие материалы, а также тестирующая система.\n\nТест по каждому уроку состоит из
+        10 вопросов, которые выбираются случайным образом из базы, предоставляющей 50 уникальных вопросов на каждый тест.\n\nВ каждом тесте имеется
+        4 типа вопросов: вопросы с ответом "да" или "нет", вопросы с ответом, который нужно написать самому, вопросы на
+        сопоставление русских слов и картинок с их английскими аналогами.\n\nЧтобы перейти к следующему уроку, нужно завершить
+        предыдущий, то есть пройти тест, как минимум на 60%. Первый урок доступен изначально.\n\nСвою статистику можно посмотреть и
+        сбросить в окне "статистика", доступном с главного экрана.\n\nПрограмма не предназначена для коммерческого использования, а создана в рамках обучения в IT School SAMSUNG.
+        Материалы уроков взяты с ресурса lingust.ru.
+        Картинки, представленные в тестах, взяты с ресурса playroom.com.ru.
+    </string>
+
+    <string name="about_1">
+        © Star English, v1.0.  Пономарев Вячеслав, 2015
+    </string>
+    <string name="about_2">
+        Star English v1.0
+    </string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+</resources>

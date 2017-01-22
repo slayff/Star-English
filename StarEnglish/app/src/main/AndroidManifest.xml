@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.slayff.starenglish" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/StarTheme" >
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="locked" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.AddInfoActivity"
+            android:label="@string/title_activity_add_info" >
+        </activity>
+        <activity
+            android:name=".Activity.LessonShowerActivity"
+            android:label="@string/title_activity_lesson_shower"
+            android:screenOrientation="locked"
+            android:theme="@style/StarThemeBar" >
+        </activity>
+        <activity
+            android:name=".Activity.LessonPickerActivity"
+            android:label="@string/title_activity_lesson_picker"
+            android:screenOrientation="locked"
+            android:theme="@style/StarThemeBar" >
+        </activity>
+        <activity
+            android:name=".Activity.TestActivity"
+            android:label="@string/title_activity_test"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name=".Activity.StatisticsActivity"
+            android:label="@string/title_activity_statistics"
+            android:screenOrientation="locked"
+            android:theme="@style/StarThemeBar" >
+        </activity>
+        <activity
+            android:name=".Activity.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/StarThemeBar" >
+        </activity>
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:label="@string/app_name"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

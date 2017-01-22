@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/gradient_1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Вопрос №"
+        android:id="@+id/text_num_q"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MATCHQTitleOfQuestion"
+        android:id="@+id/text_title_cor"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:textColor="#B32400" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text_title_cor"
+        android:layout_marginTop="50dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lorem ipsum dolor sit amet."
+            android:id="@+id/text_words_en"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/text_title_cor"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lorem ipsum dolor sit amet."
+            android:id="@+id/text_words_ru"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/text_words_en"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1)"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:textSize="25dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/spinner_match_1"
+            android:layout_below="@+id/linearLayout"
+            android:entries="@array/match_answers"
+            android:spinnerMode="dropdown"
+            android:minWidth="75dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2)"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:textSize="25dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/spinner_match_2"
+            android:layout_below="@+id/spinner_match_1"
+            android:entries="@array/match_answers"
+            android:spinnerMode="dropdown"
+            android:minWidth="75dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3)"
+            android:id="@+id/textView3"
+            android:layout_gravity="center"
+            android:textSize="25dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/spinner_match_3"
+            android:layout_below="@+id/spinner_match_2"
+            android:entries="@array/match_answers"
+            android:minWidth="75dp"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnamenext"
+        android:id="@+id/bt_next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="10dp"
+        />
+
+</RelativeLayout>

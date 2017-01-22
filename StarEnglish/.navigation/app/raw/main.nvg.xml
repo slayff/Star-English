@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "ru.slayff.starenglish.Activity.MainActivity"/>
+      <point      
+        x = "1722"      
+        y = "23"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.slayff.starenglish.Activity.MainActivity"/>
+      <point      
+        x = "452"      
+        y = "23"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "ru.slayff.starenglish.Activity.LessonPickerActivity"/>
+      <point      
+        x = "5791"      
+        y = "1730"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.slayff.starenglish.Activity.LessonPickerActivity"/>
+      <point      
+        x = "4178"      
+        y = "2385"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.slayff.starenglish.Activity.LessonShowerActivity"/>
+      <point      
+        x = "3515"      
+        y = "77"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "ru.slayff.starenglish.Activity.LessonShowerActivity"/>
+      <point      
+        x = "4965"      
+        y = "249"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.slayff.starenglish.Activity.AddInfoActivity"/>
+      <point      
+        x = "500"      
+        y = "2120"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "ru.slayff.starenglish.Activity.AddInfoActivity"/>
+      <point      
+        x = "2080"      
+        y = "2120"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

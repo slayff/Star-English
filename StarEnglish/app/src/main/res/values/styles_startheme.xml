@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTextStarTheme" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/startheme_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="RadioButtonStarTheme" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/startheme_btn_radio_holo_light</item>
+      <item name="android:textColor">#030544</item>
+  </style>
+
+  <style name="ButtonStarTheme" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/startheme_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#ffffff</item>
+  </style>
+
+  <style name="ImageButtonStarTheme" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/startheme_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerStarTheme" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/startheme_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/startheme_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerDropDownItemStarTheme" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/startheme_btn_radio_holo_light</item>
+  </style>
+
+  <style name="TextViewStarTheme" parent="android:Widget.TextView">
+      <item name="android:textColor">#030544</item>
+      <item name="android:gravity">center</item>
+  </style>
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="StarTheme" parent="@style/_StarTheme"/>
+  <style name="StarThemeBar" parent="@style/_StarThemeBar" />
+
+  <style name="_StarThemeBar" parent="Theme.Startoolbar">
+
+    <item name="android:editTextStyle">@style/EditTextStarTheme</item>
+
+    <item name="android:editTextBackground">@drawable/startheme_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99303f9f</item>
+    <item name="android:textSelectHandleLeft">@drawable/startheme_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/startheme_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/startheme_text_select_handle_middle</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/startheme_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonStarTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonStarTheme</item>
+
+     <item name="android:spinnerStyle">@style/SpinnerStarTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerStarTheme</item>
+
+    <item name="android:textViewStyle">@style/TextViewStarTheme</item>
+
+  </style>
+
+  <style name="_StarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:editTextStyle">@style/EditTextStarTheme</item>
+
+        <item name="android:editTextBackground">@drawable/startheme_edit_text_holo_light</item>
+
+        <item name="android:textColorHighlight">#99303f9f</item>
+        <item name="android:textSelectHandleLeft">@drawable/startheme_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/startheme_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/startheme_text_select_handle_middle</item>
+
+        <item name="android:listChoiceIndicatorSingle">@drawable/startheme_btn_radio_holo_light</item>
+
+        <item name="android:buttonStyle">@style/ButtonStarTheme</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonStarTheme</item>
+
+        <item name="android:spinnerStyle">@style/SpinnerStarTheme</item>
+
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerStarTheme</item>
+
+        <item name="android:textViewStyle">@style/TextViewStarTheme</item>
+
+    </style>
+
+</resources>
